@@ -1,0 +1,20 @@
+Source-Makefile: package/feeds/lte_data_oss/rmnetctl/Makefile
+
+Package: rmnetctl
+Version: g65398f5-dirty-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: Dataservices
+Category: Data Services Open Source Software
+Repository: lte_data_oss
+Title: RMnet Data Driver User space Library
+Maintainer: 
+Source: 
+Type: ipkg
+Description: RMnet Data Driver User space Library
+
+@@
+
+

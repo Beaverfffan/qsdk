@@ -91,6 +91,7 @@ $(eval $(call PackageDir,applications_luci-app-uhttpd,applications/luci-app-uhtt
 $(eval $(call PackageDir,applications_luci-app-unbound,applications/luci-app-unbound,))
 $(eval $(call PackageDir,applications_luci-app-upnp,applications/luci-app-upnp,))
 $(eval $(call PackageDir,applications_luci-app-usteer,applications/luci-app-usteer,))
+$(eval $(call PackageDir,applications_luci-app-uugamebooster,applications/luci-app-uugamebooster,))
 $(eval $(call PackageDir,applications_luci-app-v2raya,applications/luci-app-v2raya,))
 $(eval $(call PackageDir,applications_luci-app-vnstat,applications/luci-app-vnstat,))
 $(eval $(call PackageDir,applications_luci-app-vnstat2,applications/luci-app-vnstat2,))

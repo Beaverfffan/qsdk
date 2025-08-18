@@ -1,0 +1,20 @@
+Source-Makefile: package/feeds/nss_host/nssinfo/Makefile
+
+Package: nssinfo
+Version: 1
+Depends: +libc +libncurses +glib2 +libnl-nss
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: nss_host
+Title: Userspace utility for fetching stats from NSS
+Maintainer: 
+Source: 
+Type: ipkg
+Description:  A userspace utility for fetching stats from NSS.
+
+@@
+
+

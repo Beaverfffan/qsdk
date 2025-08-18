@@ -1,0 +1,75 @@
+Source-Makefile: package/feeds/bootloader/lk-qca/Makefile
+
+Package: lk-ipq40xx
+Version: g65398f5-dirty-1
+Depends: +libc @TARGET_ipq806x||TARGET_ipq
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: ipq40xx
+Section: boot
+Category: Boot Loaders
+Repository: bootloader
+Title: lk bootloader for IPQ40xx based platforms
+Maintainer: 
+Source: 
+Type: ipkg
+Description: lk bootloader for IPQ40xx based platforms
+
+@@
+
+Package: lk-ipq806x
+Version: g65398f5-dirty-1
+Depends: +libc @TARGET_ipq806x||TARGET_ipq
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: ipq806x
+Section: boot
+Category: Boot Loaders
+Repository: bootloader
+Title: lk bootloader for IPQ806x based platforms
+Maintainer: 
+Source: 
+Type: ipkg
+Description: lk bootloader for IPQ806x based platforms
+
+@@
+
+Package: lk-ipq807x
+Version: g65398f5-dirty-1
+Depends: +libc @TARGET_ipq807x||TARGET_ipq
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: ipq807x
+Section: boot
+Category: Boot Loaders
+Repository: bootloader
+Title: lk bootloader for IPQ807x based platforms
+Maintainer: 
+Source: 
+Type: ipkg
+Description: lk bootloader for IPQ807x based platforms
+
+@@
+
+Package: lk-ipq6018
+Version: g65398f5-dirty-1
+Depends: +libc @TARGET_ipq60xx||TARGET_ipq
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: ipq6018
+Section: boot
+Category: Boot Loaders
+Repository: bootloader
+Title: lk bootloader for IPQ6018 based platforms
+Maintainer: 
+Source: 
+Type: ipkg
+Description: lk bootloader for IPQ6018 based platforms
+
+@@
+
+

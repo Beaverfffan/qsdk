@@ -1,0 +1,39 @@
+Source-Makefile: package/feeds/platform_utils/uriparser/Makefile
+
+Package: liburiparser
+Version: 0.9-3
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Repository: platform_utils
+Title: uriparser library
+Maintainer: 
+Source: uriparser-0.9.3.tar.gz
+Type: ipkg
+Description: uriparser library
+https://github.com/uriparser/uriparser.git
+
+@@
+
+Package: uriparser
+Version: 0.9-3
+Depends: +libc +liburiparser
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Extra packages
+Repository: platform_utils
+Title: Uriparser
+Maintainer: 
+Source: uriparser-0.9.3.tar.gz
+Type: ipkg
+Description:  Uriparser is a URI parsing and handling library and it supports Unicode.
+https://github.com/uriparser/uriparser.git
+
+@@
+
+
