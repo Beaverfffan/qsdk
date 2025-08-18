@@ -1,0 +1,21 @@
+Source-Makefile: feeds/optic_drivers_oss/swacl-if/Makefile
+
+Package: swacl-if
+Submenu: Drivers
+Version: 1
+Depends: +libc @TARGET_ipq53xx||TARGET_ipq95xx||TARGET_ipq54xx +sw-hook
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: OPTIC_DRIVERS
+Category: OptiCore Packages
+Repository: base
+Title: swacl if
+Maintainer: 
+Source: 
+Type: ipkg
+Description:   SWACL IFP
+
+@@
+
+

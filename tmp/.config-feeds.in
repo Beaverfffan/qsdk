@@ -1,0 +1,488 @@
+	config FEED_packages
+		tristate "Enable feed packages"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"packages\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_luci
+		tristate "Enable feed luci"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"luci\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_routing
+		tristate "Enable feed routing"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"routing\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_bootloader
+		tristate "Enable feed bootloader"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"bootloader\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qcom_utils_internal
+		tristate "Enable feed qcom_utils_internal"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qcom_utils_internal\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_platform_utils
+		tristate "Enable feed platform_utils"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"platform_utils\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_platform_utils
+		tristate "Enable feed qca_platform_utils"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_platform_utils\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_networking
+		tristate "Enable feed networking"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"networking\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_nss_flowid
+		tristate "Enable feed nss_flowid"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"nss_flowid\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_nss_prop
+		tristate "Enable feed nss_prop"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"nss_prop\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_nss_host
+		tristate "Enable feed nss_host"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"nss_host\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_nss
+		tristate "Enable feed nss"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"nss\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_ssdk
+		tristate "Enable feed ssdk"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"ssdk\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_wifi_debug_tools
+		tristate "Enable feed wifi_debug_tools"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"wifi_debug_tools\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_wifi_fw_headers
+		tristate "Enable feed wifi_fw_headers"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"wifi_fw_headers\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_athdiag
+		tristate "Enable feed athdiag"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"athdiag\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_wlan
+		tristate "Enable feed wlan"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"wlan\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_nss_sap
+		tristate "Enable feed nss_sap"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"nss_sap\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca
+		tristate "Enable feed qca"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_hk
+		tristate "Enable feed qca_hk"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_hk\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_cp
+		tristate "Enable feed qca_cp"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_cp\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_sigma_dut
+		tristate "Enable feed sigma_dut"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"sigma_dut\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_wapid
+		tristate "Enable feed wapid"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"wapid\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_wapi
+		tristate "Enable feed qca_wapi"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_wapi\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_wlan_utils
+		tristate "Enable feed wlan_utils"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"wlan_utils\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_mcs
+		tristate "Enable feed qca_mcs"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_mcs\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_sigma_dut_open
+		tristate "Enable feed sigma_dut_open"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"sigma_dut_open\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_control_app_open
+		tristate "Enable feed control_app_open"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"control_app_open\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_bluetopia
+		tristate "Enable feed bluetopia"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"bluetopia\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_odd
+		tristate "Enable feed odd"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"odd\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_lib
+		tristate "Enable feed qca_lib"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_lib\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_snpe
+		tristate "Enable feed snpe"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"snpe\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_ieee1905_security
+		tristate "Enable feed ieee1905_security"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"ieee1905_security\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_athtestcmd
+		tristate "Enable feed athtestcmd"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"athtestcmd\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_nss_cust
+		tristate "Enable feed nss_cust"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"nss_cust\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_nss_userspace
+		tristate "Enable feed nss_userspace"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"nss_userspace\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_art2
+		tristate "Enable feed art2"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"art2\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_shortcut_fe
+		tristate "Enable feed shortcut_fe"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"shortcut_fe\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_hyfi
+		tristate "Enable feed hyfi"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"hyfi\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_whc
+		tristate "Enable feed whc"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"whc\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_mad
+		tristate "Enable feed qca_mad"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_mad\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_healthmonitor
+		tristate "Enable feed healthmonitor"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"healthmonitor\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_minidump
+		tristate "Enable feed minidump"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"minidump\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_ezmesh
+		tristate "Enable feed qca_ezmesh"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_ezmesh\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_nss_dpdk_prop
+		tristate "Enable feed nss_dpdk_prop"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"nss_dpdk_prop\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_nss_dpdk_pp
+		tristate "Enable feed nss_dpdk_pp"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"nss_dpdk_pp\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_nss_dpdk
+		tristate "Enable feed nss_dpdk"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"nss_dpdk\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_optic_apps_oss
+		tristate "Enable feed optic_apps_oss"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"optic_apps_oss\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_optic_apps_prop
+		tristate "Enable feed optic_apps_prop"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"optic_apps_prop\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_optic_drivers_oss
+		tristate "Enable feed optic_drivers_oss"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"optic_drivers_oss\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_optic_drivers_prop
+		tristate "Enable feed optic_drivers_prop"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"optic_drivers_prop\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_em_ext_ctrl
+		tristate "Enable feed em_ext_ctrl"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"em_ext_ctrl\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_son_mem_debug
+		tristate "Enable feed qca_son_mem_debug"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_son_mem_debug\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_afc
+		tristate "Enable feed afc"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"afc\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_rsrcmgr
+		tristate "Enable feed qca_rsrcmgr"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_rsrcmgr\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qca_afc_daemon
+		tristate "Enable feed qca_afc_daemon"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qca_afc_daemon\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_lte_data_oss
+		tristate "Enable feed lte_data_oss"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"lte_data_oss\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_lte_data_prop
+		tristate "Enable feed lte_data_prop"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"lte_data_prop\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_data_modem_monitor
+		tristate "Enable feed data_modem_monitor"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"data_modem_monitor\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_kickstart
+		tristate "Enable feed kickstart"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"kickstart\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+
+	config FEED_qwes_tools
+		tristate "Enable feed qwes_tools"
+		depends on PER_FEED_REPO
+		default y
+		help
+		 Enable the \"qwes_tools\" feed in opkg distfeeds.conf.
+		 Say M to add the feed commented out.
+

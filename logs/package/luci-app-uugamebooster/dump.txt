@@ -1,0 +1,2 @@
+Makefile:12: /home/beaver/qsdk1225/feeds/luci/luci.mk: No such file or directory
+make[2]: *** No rule to make target '/home/beaver/qsdk1225/feeds/luci/luci.mk'.  Stop.

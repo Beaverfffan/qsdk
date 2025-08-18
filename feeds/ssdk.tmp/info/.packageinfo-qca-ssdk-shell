@@ -1,0 +1,20 @@
+Source-Makefile: feeds/ssdk/qca-ssdk-shell/Makefile
+
+Package: qca-ssdk-shell
+Version: g53f06a3-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: QCA
+Category: Utilities
+Repository: base
+Title: Shell application for QCA SSDK
+Maintainer: 
+Source: 
+Type: ipkg
+Description: Shell application for QCA SSDK
+
+@@
+
+

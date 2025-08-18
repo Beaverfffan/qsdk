@@ -1,0 +1,21 @@
+Source-Makefile: feeds/optic_apps_oss/apps-scripts/Makefile
+
+Package: apps-scripts
+Submenu: Applications
+Version: 1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: OPTIC_APPS
+Category: OptiCore Packages
+Repository: base
+Title: base files
+Maintainer: 
+Source: 
+Type: ipkg
+Description:   Base files
+
+@@
+
+

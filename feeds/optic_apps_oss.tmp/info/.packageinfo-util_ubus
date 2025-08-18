@@ -1,0 +1,21 @@
+Source-Makefile: feeds/optic_apps_oss/util_ubus/Makefile
+
+Package: util-ubus
+Submenu: Applications
+Version: 1
+Depends: +libc +libjson-c +libubox +libblobmsg-json +libubus
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: OPTIC_APPS
+Category: OptiCore Packages
+Repository: base
+Title: util ubus
+Maintainer: 
+Source: 
+Type: ipkg
+Description:   Utility ubus
+
+@@
+
+

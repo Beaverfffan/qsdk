@@ -1,0 +1,25 @@
+Source-Makefile: feeds/optic_drivers_oss/omciibc/Makefile
+
+Package: omciibc
+Submenu: Drivers
+Version: 1
+Depends: +libc @TARGET_ipq53xx||TARGET_ipq95xx||TARGET_ipq54xx +kmod-qca-nss-dp +sw-hook
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: OPTIC_DRIVERS
+Category: OptiCore Packages
+Repository: base
+Title: omciibc ifp
+Maintainer: 
+Source: 
+Type: ipkg
+Description:   OMCIIBC IFP
+
+@@
+Config:
+
+source "qca/feeds/optic-drivers-oss/omciibc/Config.in"
+@@
+
+
