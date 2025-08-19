@@ -1,3 +1,4 @@
+简单粗暴地为使用相近sdk编译glinet机型软件包而修改。
 ![OpenWrt logo](include/logo.png)
 
 OpenWrt Project is a Linux operating system targeting embedded devices. Instead
